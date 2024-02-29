@@ -1,0 +1,87 @@
+table td a {
+ line-height: 28px;
+ padding: 0 20px;
+ text-align: center;
+ margin: 10px;
+ box-sizing: border-box;
+ height: 30px;
+}
+table {
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+ width: 90%;
+ list-style-type: none;
+ border-collapse: collapse;
+ border-spacing: 0;
+ border: 2px solid black;
+}
+img {
+ height: 40px;
+}
+img {
+ object-fit: cover;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+button {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ height: 40px;
+ width: 100px;
+ font-size: 16px;
+ background-color: black;
+}
+.button {
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+ list-style-type: none;
+ height: 60px;
+ width: 200px;
+ border-collapse: collapse;
+ border-spacing: 0;
+ border: 2px solid green;
+}
+.buttun {
+ background-color: green;
+}
+button:hover {
+ color: red;
+ background-color: #dadada;
+}
+th {
+ background-color: black;
+ color: white;
+ font-size: 23px;
+ text-align: center;
+}
+tr:nth-child(even) {
+ background-color: white;
+}
+tr:nth-child(odd) {
+ background-color: #f2f2f2;
+}
+td {
+ text-align: center;
+ font-size: 18px
+}
+h1 {
+ text-align: center;
+ font-size: 40px;
+ color: white;
+}
+td, th {
+ width: 30%;
+ height: 40px;
+}
+body {
+ background-color: green;
+ overflow-x: hidden;
+}
+.left {
+ text-align: left;
+}
